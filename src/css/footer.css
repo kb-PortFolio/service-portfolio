@@ -1,0 +1,44 @@
+.footer-section {
+  padding: 3rem 0 10rem;
+}
+.footer-section .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-content .footer-connect {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.footer-connect .footer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: all ease 0.2s;
+  line-height: 1;
+}
+.footer-link i {
+  color: #4298f6;
+  font-size: 1.7rem;
+}
+.footer-link:hover {
+  color: #4298f6;
+}
+.footer-content .footer-credit {
+  margin-bottom: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  line-height: 1;
+}
+.footer-credit a {
+  color: #4298f6;
+  margin-left: 0.8rem;
+}
+.footer-content .footer-copy {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+}

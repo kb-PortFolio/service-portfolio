@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  /* rem 기준이 html에 적용되어서 body에 주면 안됌 */
+}
+body {
+  font-family: "Pretendard", sans-serif;
+  line-height: 1.5;
+  /* font, color, line-height 같은 실제 문서의 기본 텍스트 스타일은
+     화면에 표시되는 콘텐츠 영역(body) 기준으로 관리하는 경우가 많음 
+     html에 해도 기능상 상관없으나 역할을 나누기 위해 넣는*/
+  background: #050816;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+#root {
+  min-height: 100dvh;
+  padding-top: 5rem;
+}
+
+.text-accent {
+  color: #4298f6;
+}
+i {
+  display: block;
+  line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+iframe {
+  border: none;
+}
+
+/* 모달창 공통  */
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  cursor: pointer;
+}
+.image-modal-content {
+  width: 65vw;
+  height: 65dvh;
+  margin-left: 17.5vw;
+  margin-top: 17.5dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-modal-content img {
+  flex: 1 1 0;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.modal-guide {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.page-back-link {
+  color: #8b95a7;
+  display: flex;
+  line-height: 1;
+  gap: 0.5rem;
+  margin-bottom: 2.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  align-items: center;
+}
+.page-back-link i {
+  font-size: 1.5rem;
+  transform: translateY(0px);
+}
+.page-back-link:hover {
+  color: #ffffff;
+  transform: translateX(-1px);
+}

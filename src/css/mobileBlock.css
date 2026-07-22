@@ -1,0 +1,46 @@
+.mobile-block {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.mobile-card {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 28px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+.mobile-title {
+  font-size: 2.5rem;
+  color: #e5e5e7;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.mobile-desc {
+  font-size: 22px;
+  color: #8e949c;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 3rem;
+}
+
+.mobile-preview {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.mobile-resolution {
+  margin-top: 34px;
+  color: #6b7280;
+  font-size: 18px;
+  font-weight: 500;
+}
